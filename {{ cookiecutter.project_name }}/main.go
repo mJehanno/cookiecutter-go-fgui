@@ -6,6 +6,6 @@ import (
 
 func main() {
 	a := app.New()
-	w := a.NewWindow({{ cookiecutter.project_name }})	
+	w := a.NewWindow("{{ cookiecutter.project_name }}")
 	w.ShowAndRun()
 }
