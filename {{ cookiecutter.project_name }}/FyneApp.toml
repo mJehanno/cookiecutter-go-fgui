@@ -1,8 +1,8 @@
-Website ={{ cookiecutter.website }} 
+Website ="{{ cookiecutter.website }}" 
 
 [Details]
 Icon = "Icon.png"
-Name = {{ cookiecutter.project_name }}
-ID = {{ cookiecutter.id }}
+Name = "{{ cookiecutter.project_name }}"
+ID = "{{ cookiecutter.id }}"
 Version = "1.0.0"
 Build = 1
